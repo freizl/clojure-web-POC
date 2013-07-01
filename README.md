@@ -2,6 +2,11 @@
 
 A Clojure library designed to ... well, that part is up to you.
 
+## Deploy to SinaApp
+  1. `lein deps`
+  2. `lein uberwar`
+  3. rename the generated war file under target folder agaist your SAE app name then upload.
+
 ## Usage
 
 FIXME
