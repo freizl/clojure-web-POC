@@ -5,13 +5,15 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [ [org.clojure/clojure "1.2.1"],
                   [org.clojure/java.jdbc "0.2.3"],
-                  [ring/ring-core "1.1.8"],
-                  [ring/ring-jetty-adapter "1.1.8"],
+                  [ring/ring-core "1.1.6"],
+                  [ring/ring-jetty-adapter "1.1.6"],
                   [ring/ring-json "0.2.0"],
-                  [compojure "1.1.5"]
+                  [compojure "1.1.5"],
+                  [hiccup "1.0.2"]
                   ]
-  :dev-dependencies [[ring/ring-devel "1.1.8"],
-                     [lein-ring "0.8.5"]
-                     ]
+  :plugins [[lein-ring "0.8.5"],
+            [ring/ring-devel "1.1.6"]]
+  :dev-dependencies []
   :main hello-clj-web.core
+  :ring {:handler hello-clj-web.core/routes}
 )
