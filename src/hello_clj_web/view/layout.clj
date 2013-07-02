@@ -16,6 +16,8 @@
       [:li
        [:a {:href "/user/simon"} "User"]]
       [:li
+       [:a {:href "/users"} "Users"]]
+      [:li
        [:a {:href "/q?a=1&b=2"} "Query"]]]]
     [:div {:id "container"} body]]
    ))
@@ -37,4 +39,10 @@
   (common
    "Hello query"
    [:p (str "Hello query" (pr-str params))]
+   ))
+
+(defn users []
+  (common
+   "Hello users"
+   [:p (str "Hello users")]
    ))
