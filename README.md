@@ -6,7 +6,7 @@ A Clojure library designed to ... well, that part is up to you.
   1. `lein deps`
   2. `lein ring uberwar`
   3. rename the generated war file under target folder agaist your SAE app name then upload.  
-     E.g. my app url is <http://clojure0701.sianapp.com>, the war name shall be `clojure0701.war`
+     E.g. my app url is <http://clojure0701.sinaapp.com/>, the war name shall be `clojure0701.war`
 
 ## Usage
 
