@@ -10,9 +10,14 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
-
 ## TODO
+  1. [ ] route has query param
+  2. [ ] RESTful route
+  3. [ ] login
+  4. [ ] security module
+  5. [ ] DB module
+
+## Question
 
   - diff between `use` and `require`
   - dynamic reloading when `lein run`
