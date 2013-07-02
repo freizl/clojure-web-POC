@@ -10,8 +10,9 @@ A Clojure library designed to ... well, that part is up to you.
 [Online deployment](http://clojure0701.sinaapp.com/)
 
 ## Usage
-
-FIXME
+  - [ubuntu postgresql](https://help.ubuntu.com/community/PostgreSQL)
+  - start postgres repl: `sudo -u postgres psql postgres`
+  - [ ] test cases
 
 ## TODO
 
